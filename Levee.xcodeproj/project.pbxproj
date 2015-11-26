@@ -78,9 +78,9 @@
 
 /* Begin PBXFileReference section */
 		B005109B1BE97B7B001B3F26 /* Levee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Levee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510A51BE97B7B001B3F26 /* Levee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Levee.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510A51BE97B7B001B3F26 /* Levee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Levee.xctest; path = LeveeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00510EA1BE9952D001B3F26 /* Levee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Levee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510F31BE9952D001B3F26 /* Levee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Levee.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510F31BE9952D001B3F26 /* Levee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Levee.xctest; path = LeveeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09B61201C06456B002BE654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B09B61211C06456B002BE654 /* Levee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Levee.h; sourceTree = "<group>"; };
 		B09B61221C06456B002BE654 /* URLEncodedParserMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodedParserMiddleware.swift; sourceTree = "<group>"; };
