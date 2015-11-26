@@ -66,6 +66,16 @@ extension HTTPRequest {
     public var URLEncodedBody: [String: String]? {
         return context["URLEncodedFormBody"] as? [String: String]
     }
+
+    public func getURLEncodedBody() throws  -> [String: String] {
+        if let URLEncodedBody = URLEncodedBody {
+            return URLEncodedBody
+        }
+        struct Error: ErrorType, CustomStringConvertible {
+            let description = "URL encoded form body not found. Maybe you forgot to apply the URLEncodedFormParserMiddleware?"
+        }
+        throw Error()
+    }
 }
 
 public let parseURLEncodedForm = URLEncodedFormParserMiddleware()
